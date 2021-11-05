@@ -1,23 +1,23 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="味変はにんにくかお酢か"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+もうこの味にには飽きた。[l][r]
 
-メロスは激怒した。[l][r]
+うまいラーメンを食べに1時間かけてここまで来た。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+しかし思いのほか量が多い。[l][r]
 
-(中略)[l][r]
+残すという選択肢はありえない。[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+ああ、これはもはや味変するほかない。[l][r]
+手を伸ばした調味料は...[l][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_sleep] →にんにく [endlink][r]
+[link target=*tag_run] →お酢 [endlink][r]
 [s]
 
 *tag_sleep
@@ -26,21 +26,21 @@
 
 [bg storage=sleep.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+口臭のあまりのにおいに眠ったように気絶した。[l][r]
+そして二度と起きることはなかった。[r]
 
-【 BAD END 】[l][cm]
+【 DEAD 】[l][cm]
 
 [jump target=*start]
 
 *tag_run
 
-[bg storage=run.jpg time=500]
+[bg storage=ramen.jpg time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+驚くほどお酢があい、余裕で完食できた。[l][r]
+腹も膨れ、やる気が満ち溢れる。[r]
 
-【 GOOD END 】[l][cm]
+【 ALIVE 】[l][cm]
 
 [jump target=*start]
